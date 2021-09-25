@@ -20,7 +20,9 @@ footer {
 hr {
     margin: 0;
 }
-
+.left-cont {
+    width: 100%;
+}
 footer a i {
     font-size: 24px;
     color: black;
@@ -38,6 +40,8 @@ nav {
     padding-top: 15px;
     padding-bottom: 5px;
     display: flex;
+    padding-left: 0;
+    padding-right: 0;
     align-items: center;
     justify-content: space-between;
     /* width: 100%; */
@@ -75,6 +79,8 @@ nav img {
     align-items: center;
     /* justify-content: center; */
     flex-wrap: nowrap;
+    border: none;
+    padding: 0;
     overflow: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -183,5 +189,8 @@ nav img {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.right-content{
+    display: none;
 }
 }
