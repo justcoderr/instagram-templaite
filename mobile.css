@@ -8,6 +8,9 @@ body {
     display: block;
     margin-right: 10px;    
 }
+.only-mobile a{
+    text-decoration: none;
+}
 footer {
     padding-top: 10px;
     background-color: white;
