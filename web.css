@@ -1,93 +1,122 @@
-@media screen and (max-width: 600px) {
-body {
+body{
+    /* width: 80%; */
+    padding-right: 10%;
+    padding-left:10%;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 footer {
-    padding-top: 10px;
-    background-color: white;
-    padding-bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    display: none;
+}
+.page-cont{
     width: 100%;
-    position: sticky;
-    bottom: 0;
-}
-
-hr {
-    margin: 0;
-}
-.left-cont {
-    width: 100%;
-}
-footer a i {
-    font-size: 24px;
-    color: black;
-}
-
-.like-count {
-    font-weight: bold;
-}
-
-.bootom-post {
-    margin: 10px;
-}
-
-nav {
-    padding-top: 15px;
-    padding-bottom: 5px;
-    display: flex;
-    padding-left: 0;
-    padding-right: 0;
-    align-items: center;
-    justify-content: space-between;
-    /* width: 100%; */
-    position: sticky;
-    top: 0;
-    background-color: white;
-    z-index: 1000;
-}
-
-nav a {
-    margin: 10px;
-    font-size: 24px;
-    color: black;
-}
-
-.comment-count {
-    margin-top: 4px;
-    color: rgb(131, 131, 131);
-}
-
-.time-count {
-    margin-top: 4px;
-    font-size: 12px;
-    color: rgb(131, 131, 131);
-}
-
-nav img {
-    margin-left: 10px;
-}
-
-.story {
-    /* margin: 10px; */
     display: flex;
     flex-direction: row;
-    align-items: center;
-    /* justify-content: center; */
+    /* align-items: center; */
+    justify-content: space-between;
     flex-wrap: nowrap;
+}
+.left-cont{
+    width: 70%;
+}
+hr{
+    display: none;
+}
+.top-nav-btns a i{
+    font-size: 26px;
+    color: black;
+    margin-left: 10px;
+}
+.right-content {
+    position: fixed;
+    right: 83px;
+    width: 25%;
+    height: 300px;
+    /* background-color: darkgoldenrod; */
+}
+.footer-post i {
+    font-size: 22px;
+    margin: 3px;
+    margin-bottom: 9px;
+}
+nav { 
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+.title-Suggestions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.per-Suggestions{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.name-info-per{
+    font-size: 12px;
+}
+.name-info-per a{
+    text-decoration: none;
+    color: black;
+}
+.nam-and-img{
+    display: flex;
+    align-items: center;
+}
+.img-perr img{
+    margin-right: 10px;
+    border-radius: 50%;
+
+}
+.per-Suggestions button{
     border: none;
-    padding: 0;
+    background-color: white;
+    font-weight: bold;
+    color: rgb(23, 133, 197);
+}
+.title-Suggestions p{
+    color: rgb(77, 77, 77);
+}
+.title-Suggestions a{
+    text-decoration: none;
+    color: black;
+}
+.insta-copyright p{
+    color: rgb(144, 150, 150);
+    font-size: 12px;
+}
+.name-info-per p{
+    margin: 0;
+    color: rgb(144, 150, 150);
+}
+.story {
+    display: flex;
+    border-radius: 3px;
+    border: solid 1px rgb(216, 215, 215);
+    padding: 10px;
+    align-items: center;
     overflow: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+    justify-content: space-between;
 }
 
 .story::-webkit-scrollbar {
     display: none;
+}
+
+.story-item img {
+    border-radius: 50%;
+    padding: 3px;
 }
 
 .story-item img {
@@ -115,82 +144,84 @@ nav img {
     font-size: 12px;
     margin-bottom: 6px;
 }
+.only-web input{
+    padding-left: 10px;
+    border: solid 1px rgb(216, 215, 215);
+    border-radius: 4px;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-right: 15px;
+    width: 300px;
 
+}
 .seen img {
     border: solid 3px rgb(0, 0, 0);
 }
-
+.hachtag {
+    color: rgb(2, 142, 235);
+}
 .seen small {
     color: rgba(90, 88, 88, 0.384);
     font-weight: bold;
     font-size: 12px;
     margin-bottom: 6px;
 }
-
+.footer-post {
+    display: flex;
+    /* padding: 8px; */
+    align-items: center;
+    justify-content: space-between;
+}
+.bootom-post{
+    margin:10px;
+}
 .user-info img {
     border-radius: 50%;
     margin-left: 10px;
     margin-right: 8px;
 }
+.post-content img {
+    width: 100%;
+    /* height: 572px; */
+}
 
-.username {
+.story-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.like-count {
     font-weight: bold;
 }
-
-.hachtag {
-    color: rgb(2, 142, 235);
+.post-text {
+    margin: 0;
 }
-
-.user-info {
-    display: flex;
-    align-items: center;
+.comment-count {
+    margin-top: 4px;
+    color: rgb(131, 131, 131);
 }
-
+.time-count {
+    margin-top: 4px;
+    font-size: 12px;
+    color: rgb(131, 131, 131);
+}
 .nav-post {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    /* margin: 3px; */
+    margin-left: 5px;
+    margin-right: 12px;
 }
-
-.footer-post {
+.post {
+    border: solid 1px rgb(216, 215, 215);
+    /* padding: 11px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.user-info {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-
-.footer-post i {
-    font-size: 22px;
-    margin: 3px;
-    margin-bottom: 9px;
-}
-
-.post-option {
-    margin-right: 16px;
-}
-
-
-
-/* .post-content {
-    width: 100%;
-    background-color: tomato;
-    min-height: 200px;
-    max-height: 300px;
-    padding-bottom: 3px;
-} */
-
-.post-content img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-}
-
-.story-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.right-content{
-    display: none;
-}
 }
