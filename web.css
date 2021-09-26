@@ -4,7 +4,14 @@ body{
     padding-left:10%;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.only-mobile{
+    display: none;
+}
+#like{
+    margin: 0;
+    padding: 0;
+    font-size: 27px;
+}
 footer {
     display: none;
 }
@@ -165,6 +172,11 @@ nav {
     font-weight: bold;
     font-size: 12px;
     margin-bottom: 6px;
+}
+.top-nav-btns a{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .footer-post {
     display: flex;
