@@ -238,3 +238,7 @@ nav {
     display: flex;
     align-items: center;
 }
+.top-nav-btns{
+    display: flex;
+
+}
